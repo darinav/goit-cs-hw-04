@@ -1,0 +1,30 @@
+# Operating System files
+.DS_Store
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Python compiled files
+__pycache__/
+*.pyc
+
+# IDE and Editor configurations (e.g., PyCharm, IntelliJ)
+.idea/
+.vscode/
+*.iml
+/shelf/
+/workspace.xml
+/httpRequests/
+/dataSources/
+/dataSources.local.xml
+
+# Docker and Build artifacts
+# Ignore the directory created by the PostgreSQL volume for database persistence
+postgres-data/
+
+# Log files and temporary files
+*.log
+tmp/
